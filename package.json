@@ -9,8 +9,8 @@
     "postinstall": "PUPPETEER_SKIP_DOWNLOAD=true npm rebuild sharp --force"
   },
   "engines": {
-    "node": ">=20.x <=24.x",
-    "npm": ">=9.x"
+    "node": ">=20 <=24",
+    "npm": ">=9"
   },
   "author": "Joe Slapet - 22892864375",
   "license": "MIT",
