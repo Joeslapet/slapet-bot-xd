@@ -8,7 +8,6 @@ import express from 'express';
 import { Boom } from '@hapi/boom';
 import { fileURLToPath } from 'url';
 import moment from 'moment-timezone';
-
 import {
   default as makeWASocket,
   DisconnectReason,
