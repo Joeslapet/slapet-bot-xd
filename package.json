@@ -1,19 +1,18 @@
 {
-  "name": "SLAPET BOT XD-V3",
+  "name": "slapet-bot-xd-v3",
   "version": "3.0.0",
-  "description": "Advanced WhatsApp Multi-Développeur : Joe Slapet | Numéro : 22892864375
+  "description": "Advanced WhatsApp Multi-Bot - Joe Slapet",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node flash.js && node --loader ./preload.js index.js",
-    "Développeur : Joe Slapet | Numéro : 22892864375
+    "start": "node index.js",
     "postinstall": "PUPPETEER_SKIP_DOWNLOAD=true npm rebuild sharp --force"
   },
   "engines": {
     "node": ">=20.x <=24.x",
     "npm": ">=9.x"
   },
-  "author": "franceking1",
+  "author": "Joe Slapet - 22892864375",
   "license": "MIT",
   "dependencies": {
     "@whiskeysockets/baileys": "git+https://lyfe00011-admin@bitbucket.org/lyfe00011/baileys.git",
@@ -44,9 +43,7 @@
     "node-fetch": "^3.3.2",
     "simple-xml-to-json": "1.0.0",
     "nayan-api-servers": "^2.4.8",
-    "nayan-media-downloaders": "^0.1.8"
-  },
-  "Développeur : Joe Slapet | Numéro : 22892864375
+    "nayan-media-downloaders": "^0.1.8",
     "nodemon": "^3.0.1"
   },
   "optionalDependencies": {
